@@ -4,7 +4,7 @@
   digits only, including Qatar country code 974. Example format: 974XXXXXXXX.
   Demo products and price ranges are illustrative only; verify before publishing.
 */
-const WHATSAPP_NUMBER = "974XXXXXXXX";
+const WHATSAPP_NUMBER = "9770255592";
 
 const parts = [
   {id:"3BA-001",name:"Used Alternator",category:"Electrical",car:"Toyota Camry • confirm year/engine",condition:"Used",price:350,image:"https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=700&q=80",description:"Example listing. Ask us to confirm compatibility and availability."},
