@@ -11,3 +11,37 @@
   object-fit: contain;
   display: block;
 }
+
+/* WhatsApp button in navigation */
+.whatsapp-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: #25D366;
+  color: #ffffff !important;
+  padding: 10px 15px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 700;
+  white-space: nowrap;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.whatsapp-cta:hover {
+  background: #128C7E;
+  transform: translateY(-2px);
+}
+
+.whatsapp-icon {
+  font-size: 19px;
+  line-height: 1;
+}
+
+@media (max-width: 768px) {
+  .whatsapp-cta {
+    margin-top: 8px;
+    padding: 10px 12px;
+    font-size: 14px;
+  }
+}
